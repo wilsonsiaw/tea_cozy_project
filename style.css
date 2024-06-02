@@ -129,3 +129,40 @@ a {
     flex-wrap: wrap;
     gap: 40px;
 }
+
+/* mid section two style rules */
+#mid-heading {
+    text-align: center;
+
+    position: relative;
+    top: 320px;
+    opacity: 1;
+    font-size: 40px;
+}
+
+.mid-section_two {
+    height: 1000px;
+    background-image: url("./assets/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mid-section_two_card {
+    background-color: black;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.9;
+}
+
+.mid-section_two_card h3 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
