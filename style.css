@@ -99,3 +99,33 @@ a {
 .hero_content h2 {
     margin-bottom: 20px;
 }
+
+/* mid section style rules */
+.mid-section_images img {
+    width: 400px;
+    height: 300px;
+}
+
+.mid-section_container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.mid-section_month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mid-section_month h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.mid-section_images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
