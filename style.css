@@ -45,3 +45,27 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
